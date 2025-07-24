@@ -58,7 +58,7 @@ export default function verifyRequest(){
                      <InputOTPSlot index={5}/>
                     </InputOTPGroup>
                     </InputOTP>
-                    <p className="text-sm text-muted-foreground">Inter the 6-dijit code sent to your email</p>
+                    <p className="text-sm text-muted-foreground">Enter the 6-digit code sent to your email</p>
                 </div>
                 <Button onClick={verifyOtp} disabled={emailPending || !isOtpCompleted} className="w-full">{emailPending ?(
                     <>
