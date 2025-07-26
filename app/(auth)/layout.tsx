@@ -24,7 +24,7 @@ export default function AuthLayout({children}:{children:ReactNode}){
                 href="/"
                 >
                 <Image  src={Logo} alt="Logo" width={32} height={32}/>
-                MyLogo
+                Kuusaa Barnootaa
                 </Link>
                 {children}
                 <div className="text-balance text-center text-xs text-muted-foreground">
